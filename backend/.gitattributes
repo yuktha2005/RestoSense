@@ -1,0 +1,4 @@
+*.joblib filter=lfs diff=lfs merge=lfs -text
+models/rating_model.joblib filter=lfs diff=lfs merge=lfs -text
+models/cuisine_model.joblib filter=lfs diff=lfs merge=lfs -text
+models/*.joblib filter=lfs diff=lfs merge=lfs -text
